@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\.node\corepack\yarn\1.22.15\bin\yarn.js add --dev solidity-coverage
+
+PATH: 
+  C:\Program Files (x86)\Microsoft Azure Sphere SDK\Tools_v2\wbin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\windows\system32\openssh\;c:\program files (x86)\ati technologies\ati.ace\core-static;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;D:\Program Files\HDF_Group\HDF5\1.10.8\bin\;D:\Program Files (x86)\NetSarang\Xshell 7\;C:\ProgramData\nvm;C:\Program Files\nodejs;D:\Program Files\Go\bin;D:\Program Files (x86)\Scripts\;D:\Program Files (x86)\;C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.07\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;D:\Program Files (x86)\cmake\bin;D:\Program Files (x86)\ninja-win;C:\Program Files\mingw-w64\x86_64-8.1.0-win32-seh-rt_v6-rev0\mingw64\bin;D:\Program Files\JetBrains\PyCharm 2021.2.3\bin;;D:\Program Files\JetBrains\GoLand 2021.2.4\bin;;D:\Anaconda\envs\py38;C:\ProgramData\nvm;C:\Program Files\nodejs;D:\Program Files\Go\bin;D:\Program Files\Go\bin;C:\path\to\your\install\directory;
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\Work\Web3\chainlink\full-blockchain-solidity-course-js\solidity\hardhat-simple-storage\node_modules\keccak\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "name": "hardhat-simple-storage",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+      "@nomiclabs/hardhat-etherscan": "^3.1.0",
+      "@nomiclabs/hardhat-waffle": "^2.0.3",
+      "dotenv": "^16.0.2",
+      "hardhat": "^2.11.2",
+      "hardhat-gas-reporter": "^1.0.9",
+      "prettier": "^2.7.1",
+      "prettier-plugin-solidity": "^1.0.0-beta.24"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
